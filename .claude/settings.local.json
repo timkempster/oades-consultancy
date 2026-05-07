@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import docx; print\\('python-docx ok'\\)\")",
+      "Bash(python -c \"import cairosvg; print\\('cairosvg ok'\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\('Pillow ok'\\)\")",
+      "Bash(python -c \"import wand; print\\('wand ok'\\)\")",
+      "Bash(python -c \"import svglib; print\\('svglib ok'\\)\")",
+      "Bash(where inkscape *)",
+      "Bash(python -c \"import reportlab; print\\('reportlab ok'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "WebFetch(domain:oadesconsultancy.co.uk)",
+      "Bash(Get-ChildItem -Recurse \"C:\\\\Users\\\\timke\\\\oades\" -Include \"*.html\",\"*.css\")",
+      "Bash(Select-Object FullName)",
+      "Bash(Sort-Object FullName)"
+    ]
+  }
+}
